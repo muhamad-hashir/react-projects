@@ -115,3 +115,75 @@ ul.ingredients-list > li {
 .suggested-recipe-container ul li, .suggested-recipe-container ol li {
     margin-bottom: 8px;
 }
+
+@media (max-width: 600px) {
+    header {
+        height: auto;
+        padding: 14px 16px;
+        gap: 8px;
+    }
+
+    header > img {
+        width: 42px;
+    }
+
+    header > h1 {
+        font-size: 1.4rem;
+        line-height: 1.1;
+        text-align: center;
+    }
+
+    main {
+        padding: 18px 14px 12px;
+    }
+
+    .add-ingredient-form {
+        flex-direction: column;
+        height: auto;
+        gap: 10px;
+    }
+
+    .add-ingredient-form > input,
+    .add-ingredient-form > button {
+        width: 100%;
+        max-width: none;
+        min-width: 0;
+    }
+
+    .add-ingredient-form > input {
+        padding: 12px 14px;
+    }
+
+    .add-ingredient-form > button {
+        padding: 12px 16px;
+    }
+
+    ul.ingredients-list {
+        margin-bottom: 32px;
+        padding-left: 20px;
+    }
+
+    .get-recipe-container {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 14px;
+        padding: 16px;
+    }
+
+    .get-recipe-container h3 {
+        margin: 0 0 4px;
+    }
+
+    .get-recipe-container p {
+        margin: 0;
+    }
+
+    .get-recipe-container button {
+        width: 100%;
+    }
+
+    .suggested-recipe-container {
+        font-size: 1rem;
+        line-height: 1.7;
+    }
+}
