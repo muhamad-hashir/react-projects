@@ -104,3 +104,35 @@ main {
 .top {
     top: 0;
 }
+
+@media (max-width: 520px) {
+    main {
+        padding: 20px 14px;
+        max-width: 100%;
+    }
+
+    .header {
+        height: 58px;
+        padding: 14px 16px;
+    }
+
+    .header > h1 {
+        font-size: 1rem;
+    }
+
+    .form {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+
+    .form input,
+    .form button {
+        min-height: 42px;
+    }
+
+    .meme span {
+        font-size: 1.4rem;
+        margin-block: 10px;
+        letter-spacing: 0.5px;
+    }
+}
